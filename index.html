@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorium - Innovation Technologique Madagascar</title>
+    <meta name="description" content="Explorium : groupe d'innovation lycéenne à Madagascar développant des solutions intelligentes avec ESP32. Distributeur de savon automatique.">
+    <meta name="keywords" content="Explorium, ESP32, innovation Madagascar, électronique, chimie, lycée">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#6366f1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="logo.svg" alt="Explorium" class="logo-svg">
+                <div class="logo">EXPLORIUM</div>
+                <span class="badge">Premium</span>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projet">Projet</a></li>
+                <li><a href="#equipe">Équipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="accueil">
+        <div class="hero-content">
+            <img src="logo.svg" alt="Explorium Logo" class="hero-logo">
+            <h1>EXPLORIUM</h1>
+            <p class="slogan">✨ Toujours en Premium ✨</p>
+            <p>Groupe d'innovation lycéenne à Madagascar développant des solutions technologiques intelligentes avec l'ESP32. Notre mission : créer l'avenir, un projet à la fois.</p>
+            <div class="cta-buttons">
+                <a href="#projet" class="cta-button">🚀 Découvrir notre projet</a>
+                <a href="#contact" class="cta-button cta-button-secondary">📧 Nous contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projet">
+        <h2>Notre Projet Principal</h2>
+        <p class="section-subtitle">Distributeur de savon automatique intelligent propulsé par ESP32</p>
+        
+        <div class="project-grid">
+            <div class="project-card">
+                <span class="project-icon">🧼</span>
+                <h3>Distributeur Automatique</h3>
+                <p>Système de distribution sans contact avec détection de présence et dosage intelligent contrôlé par ESP32</p>
+            </div>
+
+            <div class="project-card">
+                <span class="project-icon">🔬</span>
+                <h3>Savon Artisanal</h3>
+                <p>Formulation écologique de savon liquide naturel, biodégradable et optimisé pour notre système</p>
+            </div>
+
+            <div class="project-card">
+                <span class="project-icon">⚙️</span>
+                <h3>Système Embarqué</h3>
+                <p>Architecture électronique complète avec ESP32, capteurs et actuateurs programmés en C</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="tech-section">
+        <h2>Technologies Utilisées</h2>
+        <p class="section-subtitle">Stack technique pour un système embarqué moderne</p>
+        
+        <div class="tech-stack">
+            <div class="tech-badge">⚡ ESP32</div>
+            <div class="tech-badge">💻 Langage C</div>
+            <div class="tech-badge">📡 Capteur Ultrason</div>
+            <div class="tech-badge">🔧 Moteur Servo</div>
+            <div class="tech-badge">💡 LEDs RGB</div>
+            <div class="tech-badge">🔋 Batterie Li-ion</div>
+            <div class="tech-badge">🛠️ Arduino IDE</div>
+            <div class="tech-badge">🖨️ Impression 3D</div>
+        </div>
+    </div>
+
+    <section id="equipe">
+        <h2>Notre Équipe</h2>
+        <p class="section-subtitle">Une équipe pluridisciplinaire passionnée par l'innovation</p>
+        
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-avatar">👨‍💻</div>
+                <h3>Équipe Programmation</h3>
+                <p>Développement ESP32, code C optimisé et algorithmes de contrôle</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar">🔧</div>
+                <h3>Équipe Électronique</h3>
+                <p>Circuits, soudure, intégration des composants et tests hardware</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar">🎨</div>
+                <h3>Équipe Design</h3>
+                <p>Conception 3D, modélisation CAO et impression du boîtier</p>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar">🔬</div>
+                <h3>Équipe Chimie</h3>
+                <p>Formulation du savon, tests de qualité et optimisation</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Nous Contacter</h2>
+        <p class="section-subtitle">Vous êtes intéressé par notre projet ou vous souhaitez collaborer avec nous ?</p>
+        
+        <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+            <div class="project-card" style="display: inline-block;">
+                <h3 style="margin-bottom: 1.5rem; color: var(--light);">Informations de Contact</h3>
+                <p style="color: var(--light); font-size: 1.1rem; margin-bottom: 1rem;">
+                    📧 explorium.premium@gmail.com
+                </p>
+                <p style="color: var(--light); font-size: 1.1rem; margin-bottom: 1rem;">
+                    🏫 Lycée d'Innovation
+                </p>
+                <p style="color: var(--light); font-size: 1.1rem;">
+                    📍 Madagascar
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="font-size: 1.1rem; font-weight: 600;">&copy; 2024 Explorium - Toujours en Premium</p>
+        <p style="margin-top: 0.5rem;">Créé avec 💜 par l'équipe Explorium</p>
+        <div class="status-indicator">
+            <span class="status-dot"></span>
+            Site fonctionnel hors ligne
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
