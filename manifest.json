@@ -1,0 +1,16 @@
+{
+  "name": "Explorium - Innovation Technologique",
+  "short_name": "Explorium",
+  "description": "Groupe d'innovation lycéenne - ESP32, Électronique, Chimie",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
